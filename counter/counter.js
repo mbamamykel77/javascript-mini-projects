@@ -31,6 +31,7 @@ function decrementSelect() {
     document.querySelector("#noNum").textContent = "Nothing to display, click the + sign";
     nothing.style.fontSize = "20px"
     nothing.style.backgroundColor = "black"
+    display.style.backgroundColor = "black"
   }
 }
 decrease.addEventListener("click", decrementSelect);
