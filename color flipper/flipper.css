@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: peru;
+}
+
+.container h1{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container button{
+    padding: 10px;
+    width: 7rem;
+    border: 2px solid;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
