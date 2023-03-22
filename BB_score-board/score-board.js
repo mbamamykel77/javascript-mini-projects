@@ -50,6 +50,8 @@ homeButton3.addEventListener("click", homeCount3);
 // ************************************************************
 
 // Away section //
+let counterAway = 0;
+
 let awayScoreDisplay = document.querySelector("#awayDisplay");
 let awayButton1 = document.querySelector("#away1");
 let awayButton2 = document.querySelector("#away2");
@@ -67,28 +69,28 @@ let awayButton3 = document.querySelector("#away3");
 
 // New game button away
 function newGameAway() {
-  counterHome = 0;
-  awayScoreDisplay.textContent = counterHome;
+  counterAway = 0;
+  awayScoreDisplay.textContent = counterAway;
 }
 resetBtn.addEventListener("click", newGameAway);
 
 // Away button one //
 function awayCount1() {
-  counterHome++;
-  awayScoreDisplay.textContent = counterHome;
+  counterAway++;
+  awayScoreDisplay.textContent = counterAway;
 }
 awayButton1.addEventListener("click", awayCount1)
 
 // Away button two //
 function awayCount2() {
-  counterHome += 2;
-  awayScoreDisplay.textContent = counterHome;
+  counterAway += 2;
+  awayScoreDisplay.textContent = counterAway;
 }
 awayButton2.addEventListener("click", awayCount2);
 
 // Away button three //
 function awayCount3() {
-  counterHome += 3;
-  awayScoreDisplay.textContent = counterHome;
+  counterAway += 3;
+  awayScoreDisplay.textContent = counterAway;
 }
 awayButton3.addEventListener("click", awayCount3);
