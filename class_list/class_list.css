@@ -120,6 +120,19 @@ h1 {
   transition: 0.3s ease-in-out;
 }
 
+.btn-submit{
+  padding: 6px 0;
+  color: var(--white);
+  background-color: green;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  font-family: "Overpass", sans-serif;
+}
+.btn-submit:hover {
+    background-color: var(--white);
+    color: green;
+}
 .pop-up.active {
 top: 20px;
 }
